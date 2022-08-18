@@ -1,2 +1,3 @@
 # jenkins
-jenkins Project
+jenkins Project 
+jenkins scm polling
