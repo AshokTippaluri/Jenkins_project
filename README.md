@@ -1,6 +1,6 @@
-# Docker_project
+# Jenkins_project
 
-### [Install docker in Ubuntu](https://github.com/AshokTippaluri/Jenkins_project/blob/main/Jenkins.sh)
+### [Install Jenkins in Ubuntu](https://github.com/AshokTippaluri/Jenkins_project/blob/main/Jenkins.sh)
 
 ``` bash
 #!/bin/bash
@@ -22,7 +22,7 @@ sudo apt-get install jenkins -y
 systemctl start jenkins
 systemctl status jenkins
 ````
-Will get the Jenkins Web on port 8080 as show in the image
+Hurray !! Now you can access the ```Jenkins``` Server on ``http://<ip-address>:8080``
 
 ![image](https://github.com/AshokTippaluri/Jenkins_project/assets/96752472/8a93a1a7-7d52-4a43-940a-468b83e9805b)
 
@@ -41,6 +41,18 @@ Click on the suggest plugins
 
 ![image](https://github.com/AshokTippaluri/Jenkins_project/assets/96752472/938aa9e0-8f29-48d0-a2c5-5eb9867e408e)
 
+
+``` bash
+apt install unzip
+adduser sonarqube
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.4.0.54424.zip
+unzip *
+chmod -R 755 /home/sonarqube/sonarqube-9.4.0.54424
+chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-9.4.0.54424
+cd sonarqube-9.4.0.54424/bin/linux-x86-64/
+./sonar.sh start
+```
+Hurray !! Now you can access the ```SonarQube``` Server on ```http://<ip-address>:9000```
 
 
 
