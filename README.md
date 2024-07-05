@@ -18,6 +18,9 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 sudo apt-get update -y 
 sudo apt-get install jenkins -y
+
+systemctl start jenkins
+systemctl status jenkins
 ````
 jenkins Project 
 jenkins scm polling
