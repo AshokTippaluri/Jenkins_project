@@ -22,5 +22,27 @@ sudo apt-get install jenkins -y
 systemctl start jenkins
 systemctl status jenkins
 ````
-jenkins Project 
-jenkins scm polling
+Will get the Jenkins Web on port 8080 as show in the image
+
+![image](https://github.com/AshokTippaluri/Jenkins_project/assets/96752472/8a93a1a7-7d52-4a43-940a-468b83e9805b)
+
+enter the ```initialAdminPassword``` we can find in the  sudo /var/lib/jenkins/secrets/initialAdminPassword
+
+```sudo cat /var/lib/jenkins/secrets/initialAdminPassword ```
+
+Click on the suggest plugins
+
+![image](https://github.com/AshokTippaluri/Jenkins_project/assets/96752472/f41bc35e-7d4b-4b23-b976-3ef397c09888)
+
+![image](https://github.com/AshokTippaluri/Jenkins_project/assets/96752472/e6b2f03d-41d2-4eaa-b4c7-63365756e042)
+
+![image](https://github.com/AshokTippaluri/Jenkins_project/assets/96752472/f5257839-cdb1-47cd-8af6-aa26ed420f58)
+![image](https://github.com/AshokTippaluri/Jenkins_project/assets/96752472/eedf9dff-99bf-47a8-8836-9e4ae86c119f)
+
+![image](https://github.com/AshokTippaluri/Jenkins_project/assets/96752472/938aa9e0-8f29-48d0-a2c5-5eb9867e408e)
+
+
+
+
+
+
